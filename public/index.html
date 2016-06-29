@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="js/controllers/indexController.js"></script>
+</head>
+<body ng-controller="indexCtrl">
+  <div>
+    <h1>This is your count:</h1>
+    <h1>{{countNumber}}</h1>
+
+    <button type="button" id="upButton" ng-click="countUp()">Add One</button>
+    <button type="button" id="downButton" ng-click="countDown()">Remove One</button>
+  </div>
+
+  <!-- <script src="js/script.js"></script> -->
+  <!-- <script src="database.js"></script> -->
+</body>
+</html>
